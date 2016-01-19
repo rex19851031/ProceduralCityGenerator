@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\..\Engine\Engine.vcxproj", "{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProceduralCityGenerator", "GameCode\ProceduralCityGenerator.vcxproj", "{32D6BF5A-B7BA-475E-8128-228C1570148D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugInline|Win32 = DebugInline|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Debug|Win32.Build.0 = Debug|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.DebugInline|Win32.ActiveCfg = DebugInline|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.DebugInline|Win32.Build.0 = DebugInline|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Release|Win32.ActiveCfg = Release|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Release|Win32.Build.0 = Release|Win32
+		{32D6BF5A-B7BA-475E-8128-228C1570148D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32D6BF5A-B7BA-475E-8128-228C1570148D}.Debug|Win32.Build.0 = Debug|Win32
+		{32D6BF5A-B7BA-475E-8128-228C1570148D}.DebugInline|Win32.ActiveCfg = DebugInline|Win32
+		{32D6BF5A-B7BA-475E-8128-228C1570148D}.DebugInline|Win32.Build.0 = DebugInline|Win32
+		{32D6BF5A-B7BA-475E-8128-228C1570148D}.Release|Win32.ActiveCfg = Release|Win32
+		{32D6BF5A-B7BA-475E-8128-228C1570148D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

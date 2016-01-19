@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9660e62d-b4c4-4e87-9620-c3fb3b192b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building">
+      <UniqueIdentifier>{5b6a5fc7-512f-4bdd-908c-d96681ca8306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{eb20e4fa-1d17-4e3e-bfc6-ad1979f82afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Road">
+      <UniqueIdentifier>{20255a82-d5db-4f79-b3a4-ca7c43584824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{241fc2d0-63fa-4f4f-b720-e38ea5b9af6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{17ce455a-d0e6-44ea-b253-46c0bc15b91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkyBox">
+      <UniqueIdentifier>{bb405451-c3a8-4a4c-9e7e-50720872fc25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\Run_Win32\Data\Shaders\doNothing_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\doNothing_vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\fragment_frameBuffer.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\fragment_blur.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\fragment_lighting.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\fragment_fetchBrightPart.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\fragment_combine.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\MapAttribute.xml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\Run_Win32\Data\Shaders\fragment_skyBox.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\Building.cpp">
+      <Filter>Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Road\Road.cpp">
+      <Filter>Road</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureGenerator.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\BoxBuilding.cpp">
+      <Filter>Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\CylinderBuilding.cpp">
+      <Filter>Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Block\Block.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlineFonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox\SkyBox.cpp">
+      <Filter>SkyBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheApplication.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\Building.hpp">
+      <Filter>Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Terrain.hpp">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Road\Road.hpp">
+      <Filter>Road</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\TextureGenerator.hpp">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\BoxBuilding.hpp">
+      <Filter>Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\CylinderBuilding.hpp">
+      <Filter>Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Block\Block.hpp">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Noise.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlineFonts.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox\SkyBox.hpp">
+      <Filter>SkyBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

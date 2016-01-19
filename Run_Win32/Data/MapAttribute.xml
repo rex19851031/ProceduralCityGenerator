@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Map size="80,80">
+  <Spot location="10,10" density="1.0" richness="1.0" affectRadius="10" fadeRatio="0.5"/>
+  <Spot location="20,30" density="0.2" richness="0.5" affectRadius="10" fadeRatio="0.3"/>
+  <Spot location="45,50" density="0.8" richness="0.8" affectRadius="20" fadeRatio="0.8"/>
+</Map>
